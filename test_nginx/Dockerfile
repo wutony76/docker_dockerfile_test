@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER tony
+LABEL maintainer="tony"
 
 RUN apt-get update -y\
     && apt-get install nginx -y
